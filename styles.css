@@ -32,7 +32,7 @@ h1 {
     align-items: center; /* Center items vertically */
 }
 
-header {
+header, footer{
     background-color: #a89d76; /* Set background color */
     padding: 1em 1em; /* Set padding */
     box-shadow: 2px 2px 10px #f1f6f9; /* Add box shadow */
@@ -105,4 +105,23 @@ hr {
         width: 48%;
         border-radius: 25px;
     }
+}
+
+footer ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox */
+}
+  
+footer li {
+    margin-right: 2em; /* Add space between list items */
+}
+
+footer a {
+    text-decoration: none; /* Remove underline */
+}
+  
+footer a:hover,
+footer a:focus {
+    color: #fd5f00; /* Change color on hover/focus */
 }
