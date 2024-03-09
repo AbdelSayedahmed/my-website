@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #F1F1F1;
+    font-family: "Bitter";
+    margin: 0;
+}
+
+h1 {
+    font-family: "Bitter";
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+    color: #f9f8eb;
+    font-style: italic;
+}
+  
+nav a {
+    font-size: 1.5rem;
+    color: #f9f8eb;
+    text-transform: uppercase;
+}
+
+header, footer {
+    background-color: #800000;
+    padding: 1em 1em;
+    box-shadow: 2px 2px 10px #f1f6f9;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+  
+nav li {
+    margin-right: 2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+  
+nav a:hover,
+nav a:focus {
+    color: #fd5f00;
+}
+
+main {
+    margin: 1em;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: grey;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.project-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+    width: 100%;
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+}
+
+.project-list img {
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+    width: 30%;
+    height: auto;
+    margin-right: 0.5em;
+}
+
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.feedback-form {
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#placeholder {
+    color: grey;
+}
+
+#legend-title {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}

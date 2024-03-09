@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
-    <link rel="stylesheet" href="styles-projects.css"/>
-    <link rel="icon" type="image/x-icon" href="/assests/blueprint.png"/>
+    <link rel="stylesheet" href="styles-projects.css" />
+    <link rel="icon" type="image/x-icon" href="/assests/blueprint.png" />
     <script src="projects-script.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Projects</h1>
+      <nav>
+        <ul>
+          <li><a href="/Main Page/main.html">Go Back</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="project-list">
+        <ul>
+            <li>
+                <img class="thumbnail project-one" src="/assests/placeholder-image.png" alt="thumbnail"/><a href="" target="_blank"></a><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, fugiat molestias vero sint animi quo architecto alias laboriosam, soluta deserunt quod repellendus accusantium voluptas error numquam debitis. Neque, itaque molestias?</span>
+            </li>
+            <li>
+                <img class="thumbnail project-two" src="/assests/placeholder-image.png" alt="thumbnail"/><a href="" target="_blank"></a><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, fugiat molestias vero sint animi quo architecto alias laboriosam, soluta deserunt quod repellendus accusantium voluptas error numquam debitis. Neque, itaque molestias?</span>
+            </li>
+            <li>
+                <img class="thumbnail project-three" src="/assests/placeholder-image.png" alt="thumbnail"/><a href="" target="_blank"></a><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, fugiat molestias vero sint animi quo architecto alias laboriosam, soluta deserunt quod repellendus accusantium voluptas error numquam debitis. Neque, itaque molestias?</span>
+            </li>
+            <li>
+                <img class="thumbnail project-four" src="/assests/placeholder-image.png" alt="thumbnail"/><a href="" target="_blank"></a><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, fugiat molestias vero sint animi quo architecto alias laboriosam, soluta deserunt quod repellendus accusantium voluptas error numquam debitis. Neque, itaque molestias?</span>
+            </li>
+            <li>
+                <img class="thumbnail project-five" src="/assests/placeholder-image.png" alt="thumbnail"/><a href="" target="_blank"></a><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, fugiat molestias vero sint animi quo architecto alias laboriosam, soluta deserunt quod repellendus accusantium voluptas error numquam debitis. Neque, itaque molestias?</span>
+            </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <fieldset class="feedback-form">
+        <legend id="legend-title">Please leave feedback below...</legend>
+        <form action="#" onsubmit="setTimeout(function(){window.location.reload();},10);">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" placeholder="John" />
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" placeholder="Doe" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="someone@example.com" />
+
+          <label for="subject">Feedback</label>
+          <textarea id="subject" placeholder="Lorem ipsum dolor sit amet..."></textarea>
+
+          <input type="submit" value="Submit"/>
+        </form>
+      </fieldset>
+    </footer>
+  </body>
 </html>
