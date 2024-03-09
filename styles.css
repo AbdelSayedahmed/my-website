@@ -115,6 +115,8 @@ footer ul {
   
 footer li {
     margin-right: 2em; /* Add space between list items */
+    display: flex;
+    align-items: center;
 }
 
 footer a {
@@ -124,4 +126,16 @@ footer a {
 footer a:hover,
 footer a:focus {
     color: #fd5f00; /* Change color on hover/focus */
+}
+
+.icon {
+    margin: 0;
+    width: 1.5em;
+    margin-right: 0.25em;
+}
+
+footer a{
+    font-size: 1.5em;
+    color: #f9f8eb;
+    text-transform: uppercase;
 }
