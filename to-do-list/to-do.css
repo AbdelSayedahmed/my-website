@@ -20,18 +20,6 @@ nav a {
     text-transform: uppercase;
 }   
 
-.container {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-  
-.container-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 header {
     background-color: #a89d76;
     padding: 1em 1em;
@@ -52,27 +40,8 @@ nav a {
     text-decoration: none;
 }
   
-nav a:hover,
-nav a:focus {
+nav a:hover, nav a:focus {
     color: #fd5f00;
-}
-
-main {
-    margin: 1em;
-}
-
-hr {
-    border: none;
-    height: 3px;
-    background-color: grey;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-}
-
-a, a:active, a:visited {
-    padding: 0px 10px;
-    text-decoration: none;
-    color: white;
 }
 
 main {

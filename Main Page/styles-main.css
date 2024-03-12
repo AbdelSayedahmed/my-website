@@ -24,19 +24,7 @@ nav a {
     font-size: 1.5rem;
     color: #f9f8eb;
     text-transform: uppercase;
-}   
-
-.container {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-  
-.container-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+} 
 
 header, footer{
     background-color: #a89d76;
